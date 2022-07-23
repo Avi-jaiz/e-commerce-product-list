@@ -22,7 +22,7 @@ const {price,title,category,description,image} = product
     const fetchProductDetail =async()=>
     {
         const response = await axios
-        .get(`http://fakestoreapi.com/products/${productId}`)
+        .get(`https://fakestoreapi.com/products/${productId}`)
         .catch((error)=>{
             console.log(error);
         })

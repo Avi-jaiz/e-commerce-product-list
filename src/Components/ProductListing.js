@@ -10,7 +10,7 @@ import {useDispatch} from 'react-redux'
 
 function ProductListing() {
 
-    const URL ='http://fakestoreapi.com/products';
+    const URL ='https://fakestoreapi.com/products';
     const dispatch=useDispatch();
 
 useEffect(()=>
