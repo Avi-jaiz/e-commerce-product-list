@@ -1,4 +1,4 @@
-import { Action } from "history";
+
 import { ActionTypes } from "../constants/action-types"
 
 const initialState = {

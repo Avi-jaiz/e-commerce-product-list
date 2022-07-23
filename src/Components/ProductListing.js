@@ -5,11 +5,11 @@ import axios from 'axios';
 import {useEffect} from 'react';
 import {setProducts} from '../Redux/Actions/ProductActions';
 import {useDispatch} from 'react-redux'
-import ProductDetail from './ProductDetail';
+
 
 
 function ProductListing() {
-    const products = useSelector(state=>state);
+
     const URL ='http://fakestoreapi.com/products';
     const dispatch=useDispatch();
 
@@ -24,7 +24,7 @@ useEffect(()=>
     }
 
     fetchProducts();
-},[])
+})
 
 
 
