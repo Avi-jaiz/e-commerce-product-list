@@ -37,7 +37,7 @@ useEffect(()=>
 
 
 
-})  //depenedency ==> [productId]
+},[productId])  //depenedency ==> [productId]
 
    
 
