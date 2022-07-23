@@ -28,7 +28,7 @@ const {price,title,category,description,image} = product
         })
 dispatch(selectedProducts(response.data))
     }
-console.log(product)
+
 
 useEffect(()=>
 {
@@ -37,7 +37,7 @@ useEffect(()=>
 
 
 
-},[productId])
+})  //depenedency ==> [productId]
 
    
 
@@ -45,7 +45,7 @@ useEffect(()=>
   return (
     <div className='productDetail'>
   <div className='productimg'>
-    <img src ={image} className='productDetailImg' />
+    <img src ={image} className='productDetailImg' alt={title} />
     
     
     </div> 

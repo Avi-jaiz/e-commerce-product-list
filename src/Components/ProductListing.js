@@ -1,5 +1,5 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+
 import ProductComponent from './ProductComponent';
 import axios from 'axios';
 import {useEffect} from 'react';
